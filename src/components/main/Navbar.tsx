@@ -36,7 +36,7 @@ function Navbar() {
               <Link href={'/Projects'} className="cursor-pointer">Projects</Link>
             </div>
             <div className={'p-1'}>
-              <Link href={'/Projects'} className="cursor-pointer">Certificates</Link>
+              <Link href={'/Certificates'} className="cursor-pointer">Certificates</Link>
             </div>
             <div className={'p-1'}>
               <Link href={'/Contacts'} className="cursor-pointer">Contacts</Link>
