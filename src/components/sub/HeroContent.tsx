@@ -34,7 +34,7 @@ const HeroContent = () => {
                 <motion.p
                     variants={slideInFromLeft(0.8)}
                     className='text-lg text-gray-400 my-4 max-2-[600px]'>
-                    I am a Full Stack Developer in Website, Mobile, and Software Development. Check out my projects and skills.
+                    I am a Developer in Website, Mobile, and Software. Check out my projects and skills.
                 </motion.p>
 
                 <motion.a
