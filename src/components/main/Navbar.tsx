@@ -5,7 +5,7 @@ import Link from "next/link";
 
 function Navbar() {
   return (
-    <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10">
+    <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-2">
       <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
         <a
           href="/"
@@ -36,7 +36,7 @@ function Navbar() {
               <Link href={'/Projects'} className="cursor-pointer">Projects</Link>
             </div>
             <div className={'p-2'}>
-              <Link href={'/Certificates'} className="cursor-pointer">Certificates</Link>
+              <Link href={'/Projects'} className="cursor-pointer">Certificates</Link>
             </div>
 
 
@@ -46,10 +46,7 @@ function Navbar() {
         <div className="group relative transition-transform duration-300 active:scale-95 md:mr-6 w-fit h-auto ">
           <button className="relative z-10 rounded-lg bg-gradient-to-br from-indigo-500 to-fuchsia-500 p-0.5 duration-300 group-hover:scale-110">
             <span className='block rounded-md bg-slate-950 px-4 py-2 font-semibold text-slate-100 duration-300 group-hover:bg-slate-950/50 group-hover:text-slate-50 group-active:bg-slate-950/80'>
-              <a href="/Contacts">
-                Hire Me!
-              </a>
-
+              Hire Me!
             </span>
           </button>
         </div>
