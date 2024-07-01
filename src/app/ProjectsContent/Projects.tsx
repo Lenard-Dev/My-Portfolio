@@ -14,21 +14,40 @@ const Projects = () => {
       <div className="h-full w-full flex flex-col md:flex-row gap-10 items-center justify-center">
         <a href={'/TriRide'}>
           <ProjectCard
-            src="/Passenger_WelcomePage.png"
+            src="/triride-banner.png"
             title="Tri-Ride Passenger App"
             description="A tricycle booking mobile application. Fetch a tricycle ride from the comfort of your own home!"
           />
+          <div className="group relative transition-transform duration-300 active:scale-95 md:mr-6 w-fit h-auto  ">
+            <button className="relative z-10 rounded-lg bg-gradient-to-br from-indigo-500 to-fuchsia-500 p-0.5 duration-300 group-hover:scale-110">
+              <span className='block rounded-md bg-slate-950 px-4 py-2 font-semibold text-slate-100 duration-300 group-hover:bg-slate-950/50 group-hover:text-slate-50 group-active:bg-slate-950/80'>
+                <a href="/TriRide">
+                  Learn more...
+                </a>
+              </span>
+            </button>
+          </div>
         </a>
         <a href={'/TriRideDriver'}>
           <ProjectCard
-            src="/Driver_WelcomePage.png"
+            src="/triride-banner-driver.png"
             title="Tri-Ride Driver App"
             description="A tricycle fetching Application for Tri-Ride Drivers"
           />
+          <div className="group relative transition-transform duration-300 active:scale-95 md:mr-6 w-fit h-auto ">
+            <button className="relative z-10 rounded-lg bg-gradient-to-br from-indigo-500 to-fuchsia-500 p-0.5 duration-300 group-hover:scale-110">
+              <span className='block rounded-md bg-slate-950 px-4 py-2 font-semibold text-slate-100 duration-300 group-hover:bg-slate-950/50 group-hover:text-slate-50 group-active:bg-slate-950/80'>
+                <a href="/TriRideDriver">
+                  Learn more...
+                </a>
+
+              </span>
+            </button>
+          </div>
         </a>
       </div>
 
-     
+
     </div >
   );
 };
